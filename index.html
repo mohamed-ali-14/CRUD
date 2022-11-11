@@ -11,15 +11,17 @@
     </head>
     <body>
         <div class="container">
-            <label for="stName" class=" mt-5">student name </label>
-            <input id="stName" type="text" class="form-control ">
-            <label for="stGrade" class=" mt-5">student Grade </label>
-            <input id="stGrade" type="text" class="form-control ">
-            <label for="stMark" class="mt-5">student Mark </label>
-            <input id="stMark" type="text" class="form-control">
-            <label for="stRating" class="mt-5">student Rating </label>
-            <input id="stRating" type="text" class="form-control">
-            <button class="btn btn-info m-4" onclick="add()">AD student</button>
+            <label for="sName" class=" mt-5">student name </label>
+            <input id="sName" type="text" class="form-control ">
+            <label for="sGrade" class=" mt-5">student Grade </label>
+            <input id="sGrade" type="text" class="form-control ">
+            <label for="sMark" class="mt-5">student Mark </label>
+            <input id="sMark" type="text" class="form-control">
+            <label for="sRate" class="mt-5">student Rating </label>
+            <input id="sRate" type="text" class="form-control">
+            <button class="btn btn-info m-4 "id="editBtn" onclick="add()">ADD</button>
+            <input type="text" class="form-control mt-5" onkeyup="search(this)" >
+
             <table class="table mt-4">
                 <thead>
                   <th>Index</th>
