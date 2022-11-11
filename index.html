@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>mohamed</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+    <body>
+        <div class="container">
+            <label for="sName" class=" mt-5">student name </label>
+            <input id="sName" type="text" class="form-control ">
+            <label for="sGrade" class=" mt-5">student Grade </label>
+            <input id="sGrade" type="text" class="form-control ">
+            <label for="sMark" class="mt-5">student Mark </label>
+            <input id="sMark" type="text" class="form-control">
+            <label for="sRate" class="mt-5">student Rating </label>
+            <input id="sRate" type="text" class="form-control">
+            <button class="btn btn-info m-4 "id="editBtn" onclick="add()">ADD</button>
+            <input type="text" class="form-control mt-5" onkeyup="search(this)" >
+
+            <table class="table mt-4">
+                <thead>
+                  <th>Index</th>
+                  <th>student Name</th>
+                  <th>student grade</th>
+                  <th>student mark</th>
+                  <th>student rate</th>
+                  <th>Delete</th>
+                  <th>update</th>
+                </thead>
+                <tbody id="tableRow">
+                    
+                
+                </tbody>
+
+
+        </div>
+       
+        <script src="js/bootstrap.bundle.min.js" ></script>
+        <script src="js/main.js" ></script>
+    </body>
+</html>
